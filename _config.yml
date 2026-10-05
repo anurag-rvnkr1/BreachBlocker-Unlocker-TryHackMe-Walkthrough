@@ -1,14 +1,10 @@
-title: "TryHackMe CTF"
-description: "Professional CTF documentation."
-
+title: "BreachBlocker Unlocker — TryHackMe CTF"
+description: "Portfolio-ready walkthrough of source disclosure, timing attacks, OTP delivery abuse and authorization bypass."
 theme: jekyll-theme-primer
-
 plugins:
   - jekyll-relative-links
-
 relative_links:
   enabled: true
   collections: true
-
 include:
   - docs
