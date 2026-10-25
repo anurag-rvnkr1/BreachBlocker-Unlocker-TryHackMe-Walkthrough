@@ -112,38 +112,39 @@ The central security lesson is that authentication depends on the integrity of t
 ## Navigation
 
 <div class="ctf-toc">
-<div class="ctf-toc-title">Documentation Map</div>
+  <div class="ctf-toc-title">Documentation Map</div>
 
-- <a href="#mission-and-executive-summary">Mission and Executive Summary</a>
-- <a href="#scope-and-responsible-use">Scope and Responsible Use</a>
-- <a href="#assessment-objectives">Assessment Objectives</a>
-- <a href="#tools-and-techniques">Tools and Techniques</a>
-- <a href="#target-information-and-attack-surface">Target Information and Attack Surface</a>
-- <a href="#technical-walkthrough">Technical Walkthrough</a>
-- <a href="#01-initial-access-key-recovery">01. Initial Access-Key Recovery</a>
-- <a href="#02-network-service-enumeration">02. Network Service Enumeration</a>
-- <a href="#03-smtp-service-enumeration">03. SMTP Service Enumeration</a>
-- <a href="#04-mobile-portal-reconnaissance">04. Mobile Portal Reconnaissance</a>
-- <a href="#05-client-side-source-inspection">05. Client-Side Source Inspection</a>
-- <a href="#06-bank-login-reconnaissance">06. Bank Login Reconnaissance</a>
-- <a href="#07-nginx-configuration-disclosure">07. Nginx Configuration Disclosure</a>
-- <a href="#08-python-source-code-disclosure">08. Python Source-Code Disclosure</a>
-- <a href="#09-sqlite-credential-analysis">09. SQLite Credential Analysis</a>
-- <a href="#10-password-verification-and-timing-side-channel">10. Password Verification and Timing Side Channel</a>
-- <a href="#11-timing-based-credential-recovery">11. Timing-Based Credential Recovery</a>
-- <a href="#12-hopflix-authentication">12. Hopflix Authentication</a>
-- <a href="#13-hopsec-bank-and-otp-workflow">13. Hopsec Bank and OTP Workflow</a>
-- <a href="#14-otp-recipient-validation-weakness">14. OTP Recipient Validation Weakness</a>
-- <a href="#15-smtp-delivery-path-interception">15. SMTP Delivery-Path Interception</a>
-- <a href="#16-banking-authentication-and-final-impact">16. Banking Authentication and Final Impact</a>
-- <a href="#end-to-end-attack-chain">End-to-End Attack Chain</a>
-- <a href="#security-findings-and-severity">Security Findings and Severity</a>
-- <a href="#root-cause-analysis">Root Cause Analysis</a>
-- <a href="#remediation-and-defensive-recommendations">Remediation and Defensive Recommendations</a>
-- <a href="#lessons-learned">Lessons Learned</a>
-- <a href="#conclusion">Conclusion</a>
-- <a href="#references-and-evidence">References and Evidence</a>
-
+  <ul>
+    <li><a href="#mission-and-executive-summary">Mission and Executive Summary</a></li>
+    <li><a href="#scope-and-responsible-use">Scope and Responsible Use</a></li>
+    <li><a href="#assessment-objectives">Assessment Objectives</a></li>
+    <li><a href="#tools-and-techniques">Tools and Techniques</a></li>
+    <li><a href="#target-information-and-attack-surface">Target Information and Attack Surface</a></li>
+    <li><a href="#technical-walkthrough">Technical Walkthrough</a></li>
+    <li><a href="#01-initial-access-key-recovery">01. Initial Access-Key Recovery</a></li>
+    <li><a href="#02-network-service-enumeration">02. Network Service Enumeration</a></li>
+    <li><a href="#03-smtp-service-enumeration">03. SMTP Service Enumeration</a></li>
+    <li><a href="#04-mobile-portal-reconnaissance">04. Mobile Portal Reconnaissance</a></li>
+    <li><a href="#05-client-side-source-inspection">05. Client-Side Source Inspection</a></li>
+    <li><a href="#06-bank-login-reconnaissance">06. Bank Login Reconnaissance</a></li>
+    <li><a href="#07-nginx-configuration-disclosure">07. Nginx Configuration Disclosure</a></li>
+    <li><a href="#08-python-source-code-disclosure">08. Python Source-Code Disclosure</a></li>
+    <li><a href="#09-sqlite-credential-analysis">09. SQLite Credential Analysis</a></li>
+    <li><a href="#10-password-verification-and-timing-side-channel">10. Password Verification and Timing Side Channel</a></li>
+    <li><a href="#11-timing-based-credential-recovery">11. Timing-Based Credential Recovery</a></li>
+    <li><a href="#12-hopflix-authentication">12. Hopflix Authentication</a></li>
+    <li><a href="#13-hopsec-bank-and-otp-workflow">13. Hopsec Bank and OTP Workflow</a></li>
+    <li><a href="#14-otp-recipient-validation-weakness">14. OTP Recipient Validation Weakness</a></li>
+    <li><a href="#15-smtp-delivery-path-interception">15. SMTP Delivery-Path Interception</a></li>
+    <li><a href="#16-banking-authentication-and-final-impact">16. Banking Authentication and Final Impact</a></li>
+    <li><a href="#end-to-end-attack-chain">End-to-End Attack Chain</a></li>
+    <li><a href="#security-findings-and-severity">Security Findings and Severity</a></li>
+    <li><a href="#root-cause-analysis">Root Cause Analysis</a></li>
+    <li><a href="#remediation-and-defensive-recommendations">Remediation and Defensive Recommendations</a></li>
+    <li><a href="#lessons-learned">Lessons Learned</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#references-and-evidence">References and Evidence</a></li>
+  </ul>
 </div>
 
 ---
